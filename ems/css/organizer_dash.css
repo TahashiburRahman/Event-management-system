@@ -1,0 +1,82 @@
+/* Reset some default styles */
+body, h1, h2, h3, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Light gray background */
+  color: #333; /* Dark gray text color */
+}
+
+header {
+  background-color: #5e35b1; /* Purple header background */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #4527a0; /* Dark purple navigation background */
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0; /* Light gray table header */
+}
+
+button {
+  background-color: #5e35b1; /* Purple button background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4527a0; /* Darker purple on hover */
+}
+
+/* Additional styles specific to your elements can be added here */

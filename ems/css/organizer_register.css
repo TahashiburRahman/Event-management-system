@@ -1,0 +1,102 @@
+/* Reset some default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo-container {
+  background-color: #333; /* Darker background color */
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px; /* Adjust margin-top to position the logo */
+}
+.logo {
+  font-size: 3rem; /* Adjust font size as needed */
+  font-weight: bold;
+  font-family: 'Your Fancy Font', cursive; /* Replace with your desired fancy font */
+  color: #fff; /* Text color */
+  margin: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #fff;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: #222;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Add yellow accents */
+label, input[type="text"], input[type="email"], input[type="password"], button {
+  border: 1px solid #444; /* Darker border color */
+}
+
+button {
+  background-color: #fbc02d; /* Yellow background */
+    color: #333; /* Dark text color */
+    padding: 10px 40px; /* Adjust padding to your liking */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; /* Display the button as a block element */
+    margin: 0 auto; /* Center the button horizontally */
+    text-align: center; /* Center the button text */
+}
+
+button:hover {
+  background-color: #fdd835;
+}
+
+a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #fbc02d;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fdd835;
+}
+
+.jump-link {
+  transition: transform 0.2s ease-in-out;
+}
+
+.jump-link:hover {
+  transform: translateY(-10px);
+}
+
